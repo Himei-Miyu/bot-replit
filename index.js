@@ -2,6 +2,7 @@ const { Client, Intents } = require('discord.js');
 const { Replit: { prefix, invite } } = require('./config');
 
 require('dotenv').config();
+require("http").createServer((req, res) => res.end(process.version)).listen()
 
 const intents = new Intents(8);
 const client = new Client({ intents });
