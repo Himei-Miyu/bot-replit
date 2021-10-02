@@ -11,12 +11,12 @@ client.on('ready', (client) => {
     setInterval(() => {
         client.user.setPresence({
             activities: [{
-                name: `${time().days}:${time().hours}:${time().minutes}:${time().seconds}`,
+                name: `${time().days}d:${time().hours}hr:${time().minutes}m`,
                 type: 'WATCHING'
             }],
             status: 'idle'
         });
-    }, 1000)
+    }, 60000)
 
 })
 
