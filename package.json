@@ -14,8 +14,8 @@
     "dotenv": "^10.0.0",
     "pm2": "^5.1.2"
   },
-  "engines": {
-    "node": "16.x",
-    "npm": "7.x"
+  "devDependencies": {
+    "node": "^16.10.0",
+    "npm": "^7.24.1"
   }
 }
